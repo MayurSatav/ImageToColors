@@ -56,7 +56,7 @@ class Extract:
         # return the histogram
         return hist
 
-    def display(self):
+    def analysis(self):
 
         colors = self.clt.cluster_centers_
         colors = colors.astype(int)

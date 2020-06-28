@@ -23,8 +23,8 @@ ic = Extract(img, clust)
 colorslist = ic.imgtColors()
 print(colorslist)
 
-#For graphical analysis use display()
-dc.display()
+#For graphical analysis use analysis()
+ic.analysis()
 ```
 
 ## Contributing
