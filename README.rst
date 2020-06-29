@@ -38,10 +38,7 @@ command::
 **ClusterAnalysis()**
 
 It takes extracted `HEX` colors list and plot the donut graph showing color code and percentage of colors present in given image.
-
-![Output](https://github.com/MayurSatav/ImageToColors/blob/master/ImageToColors/test/output.png)
-
-
+.. image::  https://github.com/MayurSatav/ImageToColors/blob/master/ImageToColors/test/output.png
 
 Usage
 ----------
