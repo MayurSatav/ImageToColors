@@ -5,21 +5,18 @@ ImageToColors is a Image color clustering library for extracting N dominant colo
 ## Installation
 
 The easiest way to install the library is to execute
-``
+
+```
 pip install ImageToColors
 ```
 
 (note that you need network access to do it this way; if you do not have the *pip* tool installed -- see: https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/).
 
-Alternatively, you can `download`_ the library source archive, unpack
-it, ``cd`` to the unpacked directory and execute the following
-command
+Alternatively, you can `download`_ the library source archive, unpack it, `cd` to the unpacked directory and execute the following command
 ```
 python setup.py install
 ```
-It is also possible to use the library without installing it: as its
-code is contained in a single file (``IMageToColors.py``), you can
-just copy it into your project.
+It is also possible to use the library without installing it: as its code is contained in a single file (``IMageToColors.py``), you can just copy it into your project.
 
 ## Functions
 
