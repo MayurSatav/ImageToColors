@@ -1,4 +1,4 @@
-from ImageToColors.ImageToColors import *
+from ImageToColors import *
 
 img = "test/colors.jpg" # .png or .jpg
 clust = 5 # Cluster value nothing but the how many dominant colors user want to extract
