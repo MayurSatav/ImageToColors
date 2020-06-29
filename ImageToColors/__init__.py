@@ -1,1 +1,1 @@
-from ImageToColors import *
+from ImageToColors.ImageToColors import *

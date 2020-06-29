@@ -13,18 +13,21 @@ pip install ImageToColors
 ## Usage
 
 ```python
-from ImageToColors import *
+from ImageToColors.ImageToColors import *
 
-img = "image.png" # .png or .jpg
+img = "image.jpg" # .png or .jpg
 clust = 5 # Cluster value nothing but the how many dominant colors user want to extract
 
-#to print extracted colors list use imgtColors() function
-ic = Extract(img, clust)
-colorslist = ic.imgtColors()
-print(colorslist)
+#to print extracted colors list use ExtractColors() function
+HEXlist= ExtractColors(img,clust)
+print(HEXlist)
 
-#For graphical analysis use analysis()
-ic.analysis()
+# To convert Hex color list to RGB use HEXtoRGB
+RGBlist = HEXtoRGB(HEXlist)
+print(RGBlist)
+
+#For graphical analysis use ClusterAnalysis()
+ClusterAnalysis(HEXlist)
 ```
 
 ## Contributing
