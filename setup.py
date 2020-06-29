@@ -8,7 +8,7 @@ setuptools.setup(
     
     name='ImageToColors',  
 
-    version='0.1',
+    version='1.0',
 
     author="Mayur Satav",
 
