@@ -38,7 +38,7 @@ It takes single `HEX` colors list argument and convert returns a `RGB` colors co
 
 It takes extracted `HEX` colors list and plot the donut graph showing color code and percentage of colors present in given image.
 
-![Output]('https://github.com/MayurSatav/ImageToColors/blob/master/ImageToColors/test/output.png')
+![Output](https://github.com/MayurSatav/ImageToColors/blob/master/ImageToColors/test/output.png)
 
 
 
