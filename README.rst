@@ -24,8 +24,7 @@ Functions
 
 **ExtractColors()**
 
-It takes 2 arguments ``image`` and ``cluster value`` which is nothing but the integer value for number of colors want to extract.``ExtractColors()`` takes any image having ``.jpg``, ``.jpeg``, ``.png`` any one of them extension.It returns a list of hex color code list.
-
+It takes 2 arguments ``image`` and ``cluster value`` which is nothing but the integer value for number of colors want to extract. ``ExtractColors()`` takes any image having ``.jpg``, ``.jpeg``, ``.png`` any one of them extension.It returns a list of hex color code list.
 command::
  ['#46a947', '#ed3723', '#0b66b5', '#af60a8', '#fbbf10']
 
@@ -46,8 +45,8 @@ It takes extracted `HEX` colors list and plot the donut graph showing color code
 
 Usage
 ----------
-
 .. code:: python
+
  from ImageToColors.ImageToColors import *
 
  img = "image.jpg" # .png or .jpg
@@ -56,7 +55,7 @@ Usage
  #to print extracted colors list use ExtractColors() function
  HEXlist= ExtractColors(img,clust)
  print(HEXlist)
- 
+
  # To convert Hex color list to RGB use HEXtoRGB
  RGBlist = HEXtoRGB(HEXlist)
  print(RGBlist)
