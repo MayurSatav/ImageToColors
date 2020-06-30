@@ -2,11 +2,11 @@
 
 <p align="left">
   
-<img src="https://img.shields.io/npm/dy/silentlad">
+<img src="https://img.shields.io/badge/License-MIT-brightgreen">
 
-<img src="https://img.shields.io/badge/made%20by-silentlad-blue.svg" >
+<img src="https://img.shields.io/badge/Python-3.7-orange" >
 
-<img src="https://img.shields.io/badge/vue-2.2.4-green.svg">
+<img src="https://img.shields.io/badge/ImageToColors-1.1-blue">
 
 
 </p>
