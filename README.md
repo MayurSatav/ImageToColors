@@ -1,6 +1,6 @@
 # ImageToColors
 
-[![PyPI license](https://img.shields.io/pypi/l/ImageToColors.svg)](https://pypi.org/project/ImageToColors/)
+[![PyPI license](https://img.shields.io/pypi/l/ImageToColors.svg)](https://github.com/MayurSatav/ImageToColors/blob/master/LICENSE.txt)
 
 ImageToColors is a Image color clustering library for extracting N dominant colors from image and provide list of extracted colors in HEX format.THe prime purpose of this library is to provide quick colors extraction. It has `ExtractColors()` function which deals with clustering it also operate image according to their sizes for fast and secure clustering. It also provides `HEXtoRGB()` conversion function.For Graphical analysis `ImageToColors` gives you `ClusterAnalaysis()` using this function one can analyze color values along with each color percentage present in given image 
 
